@@ -22,5 +22,5 @@ function networkConnection() {
 	states[Connection.CELL_4G] = '4G connection';
 	states[Connection.NONE] = 'No connection';
 	
-	alert('Network state; ' + states[networkState]);
+	alert('Network state: ' + states[networkState]);
 }
