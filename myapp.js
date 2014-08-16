@@ -5,6 +5,13 @@ function DOMLoaded(){
 
 function phonegapLoaded() {
 	
+	var element = document.getElementById('deviceInfo');
+	
+	element.innerHTML = 'Device Name: ' + device.name + '<br/>' +
+				'PhoneGap version: ' + device.phonegap + '<br/>' +
+				'Platform: ' + device.platform + '<br/>' +
+				'Device UUID: ' + device.uuid + '<br/>' +
+				'OS version: ' + device.version + '<br/>';
 	networkConnection();
 
 }
