@@ -7,8 +7,8 @@ function phonegapLoaded() {
 	
 	var element = document.getElementById('deviceInfo');
 	
-	element.innerHTML = 'Device Name: ' + device.name + '<br/>' +
-				'PhoneGap version: ' + device.phonegap + '<br/>' +
+	element.innerHTML = 'Device model: ' + device.model + '<br/>' +
+				'PhoneGap version: ' + device.cordova + '<br/>' +
 				'Platform: ' + device.platform + '<br/>' +
 				'Device UUID: ' + device.uuid + '<br/>' +
 				'OS version: ' + device.version + '<br/>';
